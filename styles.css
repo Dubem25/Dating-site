@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    background-color: #319DA0;
+    display: flex;
+    justify-content: space-between;
+}    
+
+header a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li{
+    padding-top: 15px;
+}
+
+#logo a{
+    color: rgb(211, 219, 219);
+    font-family: "Shrikhand", sans-serif;
+}
+
+#logo{
+    padding-top: 15px;
+    font-weight: 500;
+
+}
+
+ul a{
+    color: #554994;
+}
+
+nav a{
+    border-radius: 8px;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #554994;
+    color: white;
+    font-weight: bold;
+}
+
+.sign{
+    color: white;
+}
+
+.mainpic{
+    height: 450px;
+    width: 1349px;
+}
+
+#signup-page{
+    height: 320px;
+    background-color: #CFD2CF;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px;
+}
+
+#mid-page{
+    width: 600px;
+    height: 130px;
+    background-color: dimgrey;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+
+}
+
+.sect{
+    height: 35px;
+    border-radius: 8px;
+}
+
+#mid-page a{
+    text-decoration: none;
+    color: black;
+    background-color: darkturquoise;
+    border-radius: 6px;
+    padding: 7px 15px;
+    margin-left: 20px
+
+}
+
+#about-page{
+    background-color: #D2DAFF;
+    text-align: center;
+    padding: 30px 0;
+}
+
+p{
+    font-family: "Zen Maru Gothic", sans-serif;
+}
+
+footer{
+    background: #319DA0;
+    padding: 30px 0;
+}
+
+footer h4{
+    text-align: center;
+}
+
+footer div{
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer div a{
+    text-decoration: none;
+    color: black;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+#Bigman{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #EEF2E6;
+}
+
+hr{
+    width: 400px;
+}
+
+.comments{
+    margin: 0 0 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.comment{
+    color: #6c757d;
+}
+
+.comment:before{
+    content: "~";
+}

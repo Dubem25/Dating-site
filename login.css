@@ -1,0 +1,55 @@
+body{
+    background: #319DA0;
+}
+
+header a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+#logo a{
+    color: black;
+    font-family: "Shrikhand", sans-serif;
+    text-decoration: none;
+}
+
+#logo{
+    padding-top: 15px;
+    font-weight: 500;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#Log-in{
+    height: 280px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #F9F9F9;
+}
+
+button{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(44, 7, 102);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

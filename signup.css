@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    background-image: url("images/sapphire-pins.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+#logo a{
+    color: rgb(211, 219, 219);
+    font-family: "Shrikhand", sans-serif;
+    text-decoration: none;
+}
+
+#logo{
+    padding-top: 15px;
+    font-weight: 500;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#sign-box{
+    height: 350px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.text{
+    height: 15px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.text:hover{
+    background-color: rgb(44, 7, 102);
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(44, 7, 102);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+#low-div{
+    padding-top: 20px;
+}
+
+#low-div ul{
+    display: flex;
+    padding: 20px 0;
+}
+
+#low-div li{
+    padding-top: 10px;
+    margin: 10px;
+}
